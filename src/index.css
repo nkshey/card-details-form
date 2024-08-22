@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-input {
+  @apply cursor-pointer rounded-lg border border-light-violet px-4 py-2 text-lg caret-dark-purple transition-all duration-100 placeholder:text-dark-violet/45 hover:border-light-purple focus:border-light-purple focus:outline-none;
+}
