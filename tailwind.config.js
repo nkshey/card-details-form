@@ -31,8 +31,8 @@ export default {
 
     extend: {
       backgroundImage: {
-        "mobile-pattern": "url('./images/bg-main-mobile.png')",
-        "desktop-pattern": "url('./images/bg-main-desktop.png')",
+        "mobile-pattern": "url('./public/images/bg-main-mobile.png')",
+        "desktop-pattern": "url('./public/images/bg-main-desktop.png')",
         "card-front": "url('./images/bg-card-front.png')",
         "card-back": "url('./images/bg-card-back.png')",
       },
